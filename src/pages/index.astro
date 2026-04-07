@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+
+const partners = await getCollection('partners');
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partners Archive</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding-top: 230px;
+      background: #000;
+      color: #fff;
+      font-family: Verdana, Geneva, sans-serif;
+    }
+
+    main {
+      max-width: 738px;
+      margin: 0 auto;
+      padding: 0 8px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      line-height: 0;
+    }
+
+    .gallery img {
+      width: 120px;
+      height: 40px;
+      display: block;
+      image-rendering: pixelated;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="gallery">
+      {partners.sort((a, b) => +b.id - +a.id).map((partner) => (
+        <a
+          href={partner.data.url}
+          title={partner.data.name}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={`/buttons/${partner.data.image}`}
+            alt={partner.data.name}
+            width="120"
+            height="33"
+          />
+        </a>
+      ))}
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "habbo-city.de",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbo-city.de/",
+    "image": "habbo-city-de.gif",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "2",
+    "name": "habbo-talk.net",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbo-talk.net/",
+    "image": "habbo-talk-net.gif",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "3",
+    "name": "habbonet.de",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbonet.de/",
+    "image": "habbonet-de.gif",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "4",
+    "name": "habbotimes.de",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbotimes.de/",
+    "image": "habbotimes-de.gif",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "5",
+    "name": "habbopedia.de",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbopedia.de/",
+    "image": "habbopedia-de.gif",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "6",
+    "name": "habbofun.de",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbofun.de/",
+    "image": "habbofun-de.gif",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "7",
+    "name": "habbotreff.de",
+    "url": "https://web.archive.org/web/20090307055854/http://www.habbotreff.de/",
+    "image": "habbotreff-de.png",
+    "source": "https://web.archive.org/web/20090307055854/http://www.habbo.de/community/fansites/3-offizielle-habbo-fanseiten"
+  },
+  {
+    "id": "8",
+    "name": "traxmachine.com",
+    "url": "https://traxmachine.com/",
+    "image": "traxmachine-com.gif",
+    "source": "https://traxmachine.com/about-us/"
+  },
+  {
+    "id": "9",
+    "name": "habbold.org",
+    "url": "https://habbold.org/",
+    "image": "habbold-org.png",
+    "source": "https://traxmachine.com/about-us/"
+  },
+  {
+    "id": "10",
+    "name": "pixelsemotion.com",
+    "url": "https://pixelsemotion.com/",
+    "image": "pixelsemotion-com.png",
+    "source": "https://traxmachine.com/about-us/"
+  },
+  {
+    "id": "11",
+    "name": "habblindados.com.br",
+    "url": "https://habblindados.com.br/",
+    "image": "habblindados-com-br.gif",
+    "source": "https://traxmachine.com/about-us/"
+  }
+]
